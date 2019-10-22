@@ -14,7 +14,7 @@ namespace Test
         {
             var host = new WebHostBuilder()
                 .UseKestrel()
-                .UseUrls("http://localhost:5001/")
+                .UseUrls("http://localhost:5002/")
                 .UseContentRoot(Directory.GetCurrentDirectory())
                 .UseIISIntegration()
                 .UseStartup<Startup>()
